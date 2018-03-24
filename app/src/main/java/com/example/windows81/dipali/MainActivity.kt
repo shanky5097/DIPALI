@@ -10,6 +10,14 @@ import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
+import ai.api.AIListener;
+import ai.api.android.AIConfiguration;
+import ai.api.android.AIService;
+import ai.api.model.AIError;
+import ai.api.model.AIResponse;
+import ai.api.model.Result;
+import com.google.gson.JsonElement;
+import java.util.Map;
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -71,15 +79,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
             R.id.medicalRecords -> {
-
-            }
-            R.id.swot -> {
-
-            }
-            R.id.smart -> {
-
-            }
-            R.id.assign -> {
 
             }
             R.id.reminder -> {

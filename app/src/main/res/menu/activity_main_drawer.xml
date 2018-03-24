@@ -24,26 +24,26 @@
             android:id="@+id/medicalRecords"
             android:icon="@drawable/medics"
             android:title="@string/medical_records" />
-        <item
+        <!--  <item
             android:id="@+id/swot"
             android:icon="@drawable/swot"
-            android:title="@string/s_w_o_t_analysis" />
-        <item
+            android:title="@string/s_w_o_t_analysis" /> -->
+        <!-- <item
             android:id="@+id/smart"
             android:icon="@drawable/target"
-            android:title="@string/s_m_a_r_t_goals" />
-        <item
-            android:id="@+id/assign"
-            android:icon="@drawable/assign"
-            android:title="@string/assignments" />
-        <item
-            android:id="@+id/reminder"
-            android:icon="@drawable/reminder"
-            android:title="@string/reminder" />
-        <item
-            android:id="@+id/diary"
-            android:icon="@drawable/notebook"
-            android:title="Dear Diary" />
+            android:title="@string/s_m_a_r_t_goals" /> -->
+        <!--  <item
+             android:id="@+id/assign"
+             android:icon="@drawable/assign"
+             android:title="@string/assignments" /> -->
+         <item
+             android:id="@+id/reminder"
+             android:icon="@drawable/reminder"
+             android:title="@string/reminder" />
+         <item
+             android:id="@+id/diary"
+             android:icon="@drawable/notebook"
+             android:title="Dear Diary" />
 
-    </group>
-</menu>
+     </group>
+ </menu>
